@@ -15,6 +15,13 @@
 		09F2E20D1C571E5100F56921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09F2E20B1C571E5100F56921 /* LaunchScreen.storyboard */; };
 		09F2E2181C571E5100F56921 /* SJTextFieldDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2E2171C571E5100F56921 /* SJTextFieldDemoTests.m */; };
 		09F2E2231C571E5100F56921 /* SJTextFieldDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2E2221C571E5100F56921 /* SJTextFieldDemoUITests.m */; };
+		09F2E2361C5720FC00F56921 /* RPFloatingPlaceholderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2E2331C5720FC00F56921 /* RPFloatingPlaceholderTextField.m */; };
+		09F2E2371C5720FC00F56921 /* RPFloatingPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2E2351C5720FC00F56921 /* RPFloatingPlaceholderTextView.m */; };
+		09F2E23B1C5721A500F56921 /* SJFirstEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2E2391C5721A500F56921 /* SJFirstEffectViewController.m */; };
+		09F2E23F1C57272800F56921 /* SJSecondEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2E23E1C57272800F56921 /* SJSecondEffectViewController.m */; };
+		09F2E2471C57276600F56921 /* JVFloatLabeledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2E2421C57276600F56921 /* JVFloatLabeledTextField.m */; };
+		09F2E2481C57276600F56921 /* JVFloatLabeledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2E2441C57276600F56921 /* JVFloatLabeledTextView.m */; };
+		09F2E2491C57276600F56921 /* NSString+TextDirectionality.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2E2461C57276600F56921 /* NSString+TextDirectionality.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090D77ED1C5746550095C996 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		09F2E1FA1C571E5000F56921 /* SJTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F2E1FE1C571E5100F56921 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09F2E2001C571E5100F56921 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +59,21 @@
 		09F2E21E1C571E5100F56921 /* SJTextFieldDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJTextFieldDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F2E2221C571E5100F56921 /* SJTextFieldDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJTextFieldDemoUITests.m; sourceTree = "<group>"; };
 		09F2E2241C571E5100F56921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09F2E2311C5720FC00F56921 /* RPFloatingPlaceholderConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPFloatingPlaceholderConstants.h; sourceTree = "<group>"; };
+		09F2E2321C5720FC00F56921 /* RPFloatingPlaceholderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPFloatingPlaceholderTextField.h; sourceTree = "<group>"; };
+		09F2E2331C5720FC00F56921 /* RPFloatingPlaceholderTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPFloatingPlaceholderTextField.m; sourceTree = "<group>"; };
+		09F2E2341C5720FC00F56921 /* RPFloatingPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPFloatingPlaceholderTextView.h; sourceTree = "<group>"; };
+		09F2E2351C5720FC00F56921 /* RPFloatingPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPFloatingPlaceholderTextView.m; sourceTree = "<group>"; };
+		09F2E2381C5721A500F56921 /* SJFirstEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJFirstEffectViewController.h; sourceTree = "<group>"; };
+		09F2E2391C5721A500F56921 /* SJFirstEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJFirstEffectViewController.m; sourceTree = "<group>"; };
+		09F2E23D1C57272800F56921 /* SJSecondEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSecondEffectViewController.h; sourceTree = "<group>"; };
+		09F2E23E1C57272800F56921 /* SJSecondEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSecondEffectViewController.m; sourceTree = "<group>"; };
+		09F2E2411C57276600F56921 /* JVFloatLabeledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextField.h; sourceTree = "<group>"; };
+		09F2E2421C57276600F56921 /* JVFloatLabeledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextField.m; sourceTree = "<group>"; };
+		09F2E2431C57276600F56921 /* JVFloatLabeledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVFloatLabeledTextView.h; sourceTree = "<group>"; };
+		09F2E2441C57276600F56921 /* JVFloatLabeledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JVFloatLabeledTextView.m; sourceTree = "<group>"; };
+		09F2E2451C57276600F56921 /* NSString+TextDirectionality.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TextDirectionality.h"; sourceTree = "<group>"; };
+		09F2E2461C57276600F56921 /* NSString+TextDirectionality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TextDirectionality.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +101,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090D77EE1C574BFD0095C996 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				09F2E2381C5721A500F56921 /* SJFirstEffectViewController.h */,
+				09F2E2391C5721A500F56921 /* SJFirstEffectViewController.m */,
+				09F2E23D1C57272800F56921 /* SJSecondEffectViewController.h */,
+				09F2E23E1C57272800F56921 /* SJSecondEffectViewController.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
 		09F2E1F11C571E5000F56921 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +135,9 @@
 		09F2E1FC1C571E5000F56921 /* SJTextFieldDemo */ = {
 			isa = PBXGroup;
 			children = (
+				090D77EE1C574BFD0095C996 /* Class */,
+				09F2E2401C57276600F56921 /* JVFloatLabeledTextField */,
+				09F2E2301C5720FC00F56921 /* RPFloatingPlaceholders */,
 				09F2E2001C571E5100F56921 /* AppDelegate.h */,
 				09F2E2011C571E5100F56921 /* AppDelegate.m */,
 				09F2E2031C571E5100F56921 /* ViewController.h */,
@@ -109,6 +146,7 @@
 				09F2E2091C571E5100F56921 /* Assets.xcassets */,
 				09F2E20B1C571E5100F56921 /* LaunchScreen.storyboard */,
 				09F2E20E1C571E5100F56921 /* Info.plist */,
+				090D77ED1C5746550095C996 /* PrefixHeader.pch */,
 				09F2E1FD1C571E5000F56921 /* Supporting Files */,
 			);
 			path = SJTextFieldDemo;
@@ -138,6 +176,31 @@
 				09F2E2241C571E5100F56921 /* Info.plist */,
 			);
 			path = SJTextFieldDemoUITests;
+			sourceTree = "<group>";
+		};
+		09F2E2301C5720FC00F56921 /* RPFloatingPlaceholders */ = {
+			isa = PBXGroup;
+			children = (
+				09F2E2311C5720FC00F56921 /* RPFloatingPlaceholderConstants.h */,
+				09F2E2321C5720FC00F56921 /* RPFloatingPlaceholderTextField.h */,
+				09F2E2331C5720FC00F56921 /* RPFloatingPlaceholderTextField.m */,
+				09F2E2341C5720FC00F56921 /* RPFloatingPlaceholderTextView.h */,
+				09F2E2351C5720FC00F56921 /* RPFloatingPlaceholderTextView.m */,
+			);
+			path = RPFloatingPlaceholders;
+			sourceTree = "<group>";
+		};
+		09F2E2401C57276600F56921 /* JVFloatLabeledTextField */ = {
+			isa = PBXGroup;
+			children = (
+				09F2E2411C57276600F56921 /* JVFloatLabeledTextField.h */,
+				09F2E2421C57276600F56921 /* JVFloatLabeledTextField.m */,
+				09F2E2431C57276600F56921 /* JVFloatLabeledTextView.h */,
+				09F2E2441C57276600F56921 /* JVFloatLabeledTextView.m */,
+				09F2E2451C57276600F56921 /* NSString+TextDirectionality.h */,
+				09F2E2461C57276600F56921 /* NSString+TextDirectionality.m */,
+			);
+			path = JVFloatLabeledTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +265,7 @@
 		09F2E1F21C571E5000F56921 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SJ;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = SPIREJ;
 				TargetAttributes = {
@@ -270,8 +334,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09F2E23F1C57272800F56921 /* SJSecondEffectViewController.m in Sources */,
+				09F2E2371C5720FC00F56921 /* RPFloatingPlaceholderTextView.m in Sources */,
+				09F2E23B1C5721A500F56921 /* SJFirstEffectViewController.m in Sources */,
 				09F2E2051C571E5100F56921 /* ViewController.m in Sources */,
+				09F2E2471C57276600F56921 /* JVFloatLabeledTextField.m in Sources */,
 				09F2E2021C571E5100F56921 /* AppDelegate.m in Sources */,
+				09F2E2481C57276600F56921 /* JVFloatLabeledTextView.m in Sources */,
+				09F2E2361C5720FC00F56921 /* RPFloatingPlaceholderTextField.m in Sources */,
+				09F2E2491C57276600F56921 /* NSString+TextDirectionality.m in Sources */,
 				09F2E1FF1C571E5100F56921 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,7 +482,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/SPIREJ/Documents/MyGitCode/SJTextFieldDemo/SJTextFieldDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = SJTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJTextFieldDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +495,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/SPIREJ/Documents/MyGitCode/SJTextFieldDemo/SJTextFieldDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = SJTextFieldDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xs.SJTextFieldDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +571,7 @@
 				09F2E2291C571E5100F56921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09F2E22A1C571E5100F56921 /* Build configuration list for PBXNativeTarget "SJTextFieldDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +580,7 @@
 				09F2E22C1C571E5100F56921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09F2E22D1C571E5100F56921 /* Build configuration list for PBXNativeTarget "SJTextFieldDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +589,7 @@
 				09F2E22F1C571E5100F56921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
