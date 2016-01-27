@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090D77F21C574E600095C996 /* SJChangeBtnStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090D77F01C574E600095C996 /* SJChangeBtnStatusViewController.m */; };
+		090D77F31C574E600095C996 /* SJChangeBtnStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090D77F11C574E600095C996 /* SJChangeBtnStatusViewController.xib */; };
 		09F2E1FF1C571E5100F56921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2E1FE1C571E5100F56921 /* main.m */; };
 		09F2E2021C571E5100F56921 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2E2011C571E5100F56921 /* AppDelegate.m */; };
 		09F2E2051C571E5100F56921 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F2E2041C571E5100F56921 /* ViewController.m */; };
@@ -43,6 +45,9 @@
 
 /* Begin PBXFileReference section */
 		090D77ED1C5746550095C996 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		090D77EF1C574E600095C996 /* SJChangeBtnStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJChangeBtnStatusViewController.h; sourceTree = "<group>"; };
+		090D77F01C574E600095C996 /* SJChangeBtnStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJChangeBtnStatusViewController.m; sourceTree = "<group>"; };
+		090D77F11C574E600095C996 /* SJChangeBtnStatusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJChangeBtnStatusViewController.xib; sourceTree = "<group>"; };
 		09F2E1FA1C571E5000F56921 /* SJTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F2E1FE1C571E5100F56921 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09F2E2001C571E5100F56921 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +113,9 @@
 				09F2E2391C5721A500F56921 /* SJFirstEffectViewController.m */,
 				09F2E23D1C57272800F56921 /* SJSecondEffectViewController.h */,
 				09F2E23E1C57272800F56921 /* SJSecondEffectViewController.m */,
+				090D77EF1C574E600095C996 /* SJChangeBtnStatusViewController.h */,
+				090D77F01C574E600095C996 /* SJChangeBtnStatusViewController.m */,
+				090D77F11C574E600095C996 /* SJChangeBtnStatusViewController.xib */,
 			);
 			name = Class;
 			sourceTree = "<group>";
@@ -309,6 +317,7 @@
 			files = (
 				09F2E20D1C571E5100F56921 /* LaunchScreen.storyboard in Resources */,
 				09F2E20A1C571E5100F56921 /* Assets.xcassets in Resources */,
+				090D77F31C574E600095C996 /* SJChangeBtnStatusViewController.xib in Resources */,
 				09F2E2081C571E5100F56921 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +345,7 @@
 			files = (
 				09F2E23F1C57272800F56921 /* SJSecondEffectViewController.m in Sources */,
 				09F2E2371C5720FC00F56921 /* RPFloatingPlaceholderTextView.m in Sources */,
+				090D77F21C574E600095C996 /* SJChangeBtnStatusViewController.m in Sources */,
 				09F2E23B1C5721A500F56921 /* SJFirstEffectViewController.m in Sources */,
 				09F2E2051C571E5100F56921 /* ViewController.m in Sources */,
 				09F2E2471C57276600F56921 /* JVFloatLabeledTextField.m in Sources */,

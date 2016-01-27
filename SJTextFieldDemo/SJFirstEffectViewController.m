@@ -25,10 +25,13 @@
     
     CGRect frame = CGRectMake(20.f, 300.f, 273.f, 30.f);
     RPFloatingPlaceholderTextField *flTextField = [[RPFloatingPlaceholderTextField alloc] initWithFrame:frame];
+    //弹上去时小字颜色
     flTextField.floatingLabelActiveTextColor = [UIColor blueColor];
+    //placeholder 颜色
     flTextField.floatingLabelInactiveTextColor = [UIColor grayColor];
     flTextField.placeholder = @"您的账号";
-    flTextField.font = [UIFont fontWithName:@"Helvetica" size:14.f];
+    flTextField.font = [UIFont fontWithName:@"Helvetica" size:16.f];
+    //另一种效果 默认为RPFloatingPlaceholderAnimateUpward
 //    flTextField.animationDirection = RPFloatingPlaceholderAnimateDownward; // You can change animation direction
 //    flTextField.text = @"I love lamp."; // You can set text after it's been initialized
     [self.view addSubview:flTextField];

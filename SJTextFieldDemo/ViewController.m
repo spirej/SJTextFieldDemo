@@ -10,13 +10,14 @@
 
 #import "SJFirstEffectViewController.h"
 #import "SJSecondEffectViewController.h"
+#import "SJChangeBtnStatusViewController.h"
 
 @interface ViewController ()
 
 #define cellHeight 70
 
-#define kLabelTitles @[@"1- 第一种输入效果",@"2- 第二种输入效果",@"3- TableView右侧的索引栏示例", @"4- 编辑 - 删除操作",@"5- 编辑 - 删除、排序操作",@"6- tabHeader下拉拉伸上滑显示navigation"]
-#define kDetialLabelText @[@"SJBasicTableView",@"SJCustomCellVC",@"SJTabSearchVC",@"SJDeleteTabCellVC", @"SJTabSortController",@"SJTabHeaderController"]
+#define kLabelTitles @[@"1- 第一种输入效果",@"2- 第二种输入效果",@"3- textField是否有值改变btn状态"]
+#define kDetialLabelText @[@"SJFirstEffectViewController.h",@"SJSecondEffectViewController.h",@"SJChangeBtnStatusViewController.h"]
 
 @end
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
@@ -97,6 +98,12 @@
         {
             SJSecondEffectViewController *secondEffectVC = [[SJSecondEffectViewController alloc] init];
             [self.navigationController pushViewController:secondEffectVC animated:YES];
+        }
+            break;
+        case 2:
+        {
+            SJChangeBtnStatusViewController *changeBtnStatusVC = [[SJChangeBtnStatusViewController alloc] init];
+            [self.navigationController pushViewController:changeBtnStatusVC animated:YES];
         }
             break;
         default:

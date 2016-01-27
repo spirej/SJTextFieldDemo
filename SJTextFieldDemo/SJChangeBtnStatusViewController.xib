@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SJChangeBtnStatusViewController">
+            <connections>
+                <outlet property="finishedBtn" destination="djd-zV-6Ef" id="fpg-eD-fmK"/>
+                <outlet property="nameTF" destination="Yeu-Pe-4Mh" id="IQg-V3-JAx"/>
+                <outlet property="phoneTF" destination="czj-p0-bK2" id="Mzs-yS-pHJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入你的姓名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Yeu-Pe-4Mh">
+                    <rect key="frame" x="89" y="99" width="191" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="姓名" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gL-pO-RlS">
+                    <rect key="frame" x="47" y="103" width="34" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="G2E-pF-IEC"/>
+                        <constraint firstAttribute="width" constant="34" id="zhs-Rg-VHI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入你的电话" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="czj-p0-bK2">
+                    <rect key="frame" x="89" y="170" width="191" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电话" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B3U-XU-kZg">
+                    <rect key="frame" x="47" y="174" width="34" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djd-zV-6Ef">
+                    <rect key="frame" x="52" y="240" width="228" height="45"/>
+                    <color key="backgroundColor" red="0.8862745098" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="d1q-IY-dKS"/>
+                    </constraints>
+                    <state key="normal" title="完成">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="finishedBtnTouch:" destination="-1" eventType="touchUpInside" id="I1n-f7-ZRS"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Yeu-Pe-4Mh" secondAttribute="trailing" constant="40" id="5mY-7f-Zdg"/>
+                <constraint firstItem="czj-p0-bK2" firstAttribute="top" secondItem="Yeu-Pe-4Mh" secondAttribute="bottom" constant="41" id="9aK-Lb-mCU"/>
+                <constraint firstItem="7gL-pO-RlS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="103" id="AHU-i7-3CF"/>
+                <constraint firstItem="B3U-XU-kZg" firstAttribute="top" secondItem="7gL-pO-RlS" secondAttribute="bottom" constant="50" id="Ess-gP-9Sw"/>
+                <constraint firstItem="czj-p0-bK2" firstAttribute="centerY" secondItem="B3U-XU-kZg" secondAttribute="centerY" id="OEN-vT-NLi"/>
+                <constraint firstItem="B3U-XU-kZg" firstAttribute="leading" secondItem="7gL-pO-RlS" secondAttribute="leading" id="Upw-pW-7Mb"/>
+                <constraint firstItem="7gL-pO-RlS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="47" id="VeD-P3-L3M"/>
+                <constraint firstItem="czj-p0-bK2" firstAttribute="trailing" secondItem="Yeu-Pe-4Mh" secondAttribute="trailing" id="bWR-cf-xLT"/>
+                <constraint firstItem="djd-zV-6Ef" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="52" id="d7U-pK-zFa"/>
+                <constraint firstItem="czj-p0-bK2" firstAttribute="leading" secondItem="Yeu-Pe-4Mh" secondAttribute="leading" id="dzs-VB-zJJ"/>
+                <constraint firstItem="Yeu-Pe-4Mh" firstAttribute="centerY" secondItem="7gL-pO-RlS" secondAttribute="centerY" id="itD-Fg-5TN"/>
+                <constraint firstItem="djd-zV-6Ef" firstAttribute="top" secondItem="czj-p0-bK2" secondAttribute="bottom" constant="40" id="oo8-cY-mZt"/>
+                <constraint firstItem="Yeu-Pe-4Mh" firstAttribute="leading" secondItem="7gL-pO-RlS" secondAttribute="trailing" constant="8" symbolic="YES" id="vcj-Ek-ZvF"/>
+                <constraint firstItem="djd-zV-6Ef" firstAttribute="trailing" secondItem="czj-p0-bK2" secondAttribute="trailing" id="yWh-Er-tSM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="222" y="345"/>
+        </view>
+    </objects>
+</document>
